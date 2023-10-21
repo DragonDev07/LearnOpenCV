@@ -2,7 +2,7 @@
 import cv2 as cv
 
 # Image!
-img  = cv.imread('photos/cat.png') 
+img  = cv.imread('photos/derpCat.jpeg') 
 cv.imshow("image", img)
 
 # Videos!

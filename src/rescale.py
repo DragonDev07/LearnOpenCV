@@ -15,7 +15,7 @@ def changeRes(width, height):
     capture.set(4,height)
 
 # Display Resized Images!
-img = cv.imread("photos/cat-large.png")
+img = cv.imread("photos/derpCat.jpeg")
 resized_img = rescaleFrame(img, scale=0.25)
 
 cv.imshow("Image", img)
